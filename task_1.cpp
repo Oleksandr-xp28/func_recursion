@@ -1,7 +1,5 @@
-#include <iostream>
-#include "lib.h"
-using namespace std;
 
+#include "lib.h"
 
 int power(int base, int exponent) {
     if (exponent == 0) {
@@ -12,7 +10,7 @@ int power(int base, int exponent) {
     }
 }
 
-int main() {
+int power_main() {
     int base, exponent;
     cout << "Raised to:";
     cin >> exponent;

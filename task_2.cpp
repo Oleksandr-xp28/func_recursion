@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+
+#include "lib.h"
 
 void printAsterisks(int M) {
 
@@ -13,11 +13,11 @@ void printAsterisks(int M) {
     }
 }
 
-int main() {
+int print() {
     int M;
     cout << "Enter the number of asterisks to print: ";
     cin >> M;
-    cout << "The output is: ";
+    cout << "The output is: " << endl; cout << "\t" << endl;
     printAsterisks(M);
     cout << endl;
     return 0;
